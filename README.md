@@ -1,2 +1,2 @@
 # WebPage
-HTML
+Web development practice web pages
