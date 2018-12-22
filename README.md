@@ -1,2 +1,2 @@
 # WebPage
-Web development practice 
+Web Development Practice 
