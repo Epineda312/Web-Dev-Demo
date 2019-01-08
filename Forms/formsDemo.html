@@ -10,7 +10,7 @@
 <!--action - Where the form sends data to -->
 <!--method - What HTTP method (get/post) -->
 
-<form action="http://www.wikipedia.org">
+<!-- <form action="http://www.wikipedia.org">
 
 	<label>
 		Username: 
@@ -21,9 +21,19 @@
 		Password:
 		<input name="password" type="password" placeholder="password">	
 	</label>
+
+	<input type="submit">
+</form> -->
+
+<form action="http://www.wikipedia.org">
+
+	<label for="username">Username:</label>
+	<input id="username" type="text" placeholder="username">
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password">
 	
 	<input type="submit">
 </form>
-
 </body>
 </html>
