@@ -1,11 +1,6 @@
 h1{
-	color:red;
-}
-
-li{
-	color:green;
-}
-
-h4{
-	color: purple;
+	/*Hex color: #F400DD;*/
+	/*RGB color: rgb(240,100,100);*/
+	/*RGBA alpha(transparency) color: rgb(240,100,100,0);*/
+	color: rgba(0,200,100,0.6);
 }
