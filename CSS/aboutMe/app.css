@@ -3,4 +3,25 @@ h1{
 	/*RGB color: rgb(240,100,100);*/
 	/*RGBA alpha(transparency) color: rgb(240,100,100,0);*/
 	color: rgba(0,200,100,0.6);
+
+
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	border: 5px solid purple;*/
+	/*
+	Width, Color, Style*/
+	border: 8px dashed rgb(255,100,80);
+}
+
+h4{
+	background: rgb(100,200,80);
+}
+
+body{
+
+	background: gray;
+	/*background: url(https://i.pinimg.com/originals/8c/c5/22/8cc522c738f4d73aef5e5f785b4af2b2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
 }
