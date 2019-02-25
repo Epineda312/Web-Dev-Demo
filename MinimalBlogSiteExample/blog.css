@@ -13,3 +13,11 @@ font: source sans pro;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+.blueUppercaseSpaced{
+	text-transform: uppercase;
+	color: blue;
+}
+.TitleOfArticle{
+	color: #2c3e50;
+	font-family: sans-serif;
+}
