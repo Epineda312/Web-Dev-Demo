@@ -7,17 +7,55 @@
 	<style type="text/css">
 		.btn-danger{
 			color: orange;
-			background: orange;
+			/*background: orange;*/
 		}
 		
 	</style>
 </head>
 <body>
-<h1>Bootstrap Basics</h1>
-<button class="btn btn-danger btn-sm">Click Me</button>
-<button class="btn btn-success btn-sm active">Click Me</button>
-<button class="btn btn-success btn-sm" disabled="disabled">Click Me</button>
 
-<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+
+<!--Start Container -->
+<div class="container">
+
+<!--Jumbotron Example-->
+	<div class="jumbotron">
+		<h1>This Is A Jumbotron</h1>
+		<p>This is the placeholder text of a jumbotron</p>
+	<button class="btn btn-success btn-lg">Hi There</button>
+	</div>
+<!--End Jumbotron Example-->
+
+<!--Start Buttons Examples-->
+	<h1>Bootstrap Basics</h1>
+	<button class="btn btn-danger btn-sm">Click Me</button>
+	<button class="btn btn-success btn-sm active">Click Me</button>
+	<button class="btn btn-success btn-sm" disabled="disabled">Click Me</button>
+	<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+<!-- End Buttons Examples -->
+
+<!--Start Forms Examples-->
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!--End Forms Examples-->
+
+</div>
+<!--End Container-->
+
 </body>
 </html>
