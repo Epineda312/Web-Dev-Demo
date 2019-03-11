@@ -1,0 +1,10 @@
+body{
+	background: url(https://i.imgur.com/QAiBC9Q.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+}
+#content{
+	text-align: center;
+	padding-top: 25%;
+}
