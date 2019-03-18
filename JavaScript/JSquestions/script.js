@@ -7,9 +7,8 @@ var firstName = prompt("What is your first name?");
 var lastName = prompt("What is your last name?");
 
 //ask user for age
-var age = prompt("How old are you");\
+var age = prompt("How old are you");
 
-//create a full name variable using user input
 var fullName = firstName + " " + lastName;
 
 //form a sentence using user input
