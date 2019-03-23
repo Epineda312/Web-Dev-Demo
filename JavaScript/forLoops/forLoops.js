@@ -92,7 +92,7 @@ for(var i = 300; i <= 333; i++){
 console.log("Print all numbers divisble by 5 AND 3 between 5 and 50");
 var num = 5;
 for (var i = 5; i <= 50; i++){
-	if(num % 2 == 0 && num % 5 == 0){
+	if(num % 3 == 0 && num % 5 == 0){
 	console.log(num)
 	}
 	num++;
